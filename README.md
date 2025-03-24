@@ -1,2 +1,5 @@
-# personalPortfolio
-Personal Portfolio
+# React + Vite
+
+
+npm run dev
+for installing fonts- npm install @fontsource/fontName
