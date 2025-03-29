@@ -1,0 +1,25 @@
+@import '../../vars.css';
+
+.container{
+    position: relative;
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: linear-gradient(180deg, rgb(2, 2, 2) 0%, var(--color-bg) 90%);
+    padding: 30px;
+    border-radius: 50px;
+}
+.title{
+    color: var(--color-text);
+    text-align: center;
+
+}
+
+.description{
+    padding-top: 20px;
+    color: var(--color-text);
+    text-align: center;
+}

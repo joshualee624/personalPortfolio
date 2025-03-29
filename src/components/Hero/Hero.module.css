@@ -1,0 +1,63 @@
+@import '../../vars.css';
+
+.profPic{
+    width:50%;
+    border-radius: 100px;
+    position: relative;
+}
+
+.picWrapper{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    
+}
+
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 49px; 
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color:var(--color-text);
+    z-index: 1;
+
+}
+
+.title{
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 33px;
+    font-family: poppins;
+    /* background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(231, 229, 149, 0.707) 100%); */
+    /* background-clip: padding-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+
+}
+
+.description{
+    font-size: 30px;
+    font-family: poppins;
+    margin-bottom: 52px;
+}
+
+.contactBtn{
+    text-decoration: none;
+    background-color: var(--color-primary);
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 100px;
+    padding: 17px 26px;
+    color: var(--color-text);
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
